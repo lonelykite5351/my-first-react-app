@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import ExpenseItem from './components/ExpenseItem'
 import './App.css';
 
 function App() {
@@ -6,9 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>Edit <code>src/App.js</code> and save to reload.</p>
+        <p>This is visiable</p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +17,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <ExpenseItem></ExpenseItem>
       </header>
     </div>
   );
